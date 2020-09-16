@@ -1,0 +1,142 @@
+html{
+    overflow-x: hidden;
+}
+body {
+    background-color: white;
+}
+
+#loader {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+#loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#heading {
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+
+#heading h1 {
+    font-family: Palanquin Dark;
+    font-size: 12vh;
+}
+
+h2 {
+    font-family: Palanquin Dark;
+    font-size: 7vh;
+}
+
+.line {
+    margin: 0;
+    border-left: 1px solid grey;
+    overflow: hidden;
+}
+
+.line2 {
+    margin: 0;
+    overflow: hidden;
+}
+
+#heading p {
+    font-family: Quicksand;
+    font-size: 5vh;
+    font-weight: 300;
+}
+
+#intro {
+    background-color: #0099ff;
+    color: white;
+}
+
+#dos {
+    /* background-color: #0099ff; */
+    background-color: #E91E63;
+    color: white;
+}
+
+#donts {
+    background-color: white;
+    color: black;
+}
+
+.written {
+    font-family: Quicksand;
+    font-size: 4vh;
+}
+
+.written2 {
+    font-family: Quicksand;
+    font-size: 2.5vh;
+}
+
+.quote {
+    font-family: Quicksand;
+    font-size: 4vh;
+}
+
+.points h3 {
+    font-size: 3.5vh;
+}
+
+.points {
+    font-family: Quicksand;
+    font-size: 2vh;
+    color: black;
+    background-color: white;
+    border-radius: 2vh;
+    margin: 1vh;
+}
+
+.points2 h3 {
+    font-size: 3.5vh;
+}
+
+.points2 {
+    font-family: Quicksand;
+    font-size: 2vh;
+    color: black;
+    background-color: white;
+    border-radius: 2vh;
+    margin: 1vh;
+}
+
+.each:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+#Subpages {
+    background-color: #00cba9;
+    color: white;
+}
+
+#wide {
+    width: 100%;
+}
+
+.bottomlnk {
+    color: #00cba9;
+}
+
+.bottomlnk:hover {
+    animation: zoomIn;
+    animation-duration: 2s;
+    color: white;
+    background-color: #00cba9;
+    border-radius: 2.2vh;
+    font-size: 2vh;
+    padding: 1vh;
+    text-decoration: none;
+}
